@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+
+/*rgb (155,155,255)
+rgb(68,68,189) */
+
+body {
+  background-image: linear-gradient(rgb(155, 155, 255), rgb(68, 68, 189));
+  min-height: 100vh;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+box-shadow:0 20px 30px; rgba(48,48,48,0.189);
+
+}
+
+
+a{
+  color: palevioletred;
+
+}
+
+
+
+/* LEFT  */
+
+
+.left p{
+  font-weight: 600;
+}
+
+.left h2{
+  margin: 20px;
+  font-size: 30px;
+
+}
+
+.left{
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+.left name_input{
+font-size: 20px;
+font-weight: 5oo;
+
+}
+
+.left input{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-radius: 40px;
+  font-size: 18px;
+
+}
+
+
+
+
+
+.left .checkbox{
+  font-weight: 600;
+}
+
+
+.left button{
+  padding-top: 12px;
+  padding-bottom: 20px;
+  width: 45%;
+  border: 0;
+  outline: 0;
+  background-color: rgb(68, 68, 189);
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+/* .right */
+/* 
+.right {
+  float: right;
+}
+
+.right img{
+  width: 100%;
+  margin-top: 40px;
+position: relative;
+
+right: 30px;}  */
